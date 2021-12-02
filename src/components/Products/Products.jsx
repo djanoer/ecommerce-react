@@ -4,9 +4,9 @@ import { Grid } from "@material-ui/core";
 import Product from './Product/Product';
 
 const products = [
-  { id: 1, name: "Sepatu", description: "sepatu renang", price: 'Rp. 100.000' },
-  { id: 1, name: "Macbook", description: "Apple Macbook", price: 'Rp. 15.000.000' },
-  { id: 1, name: "Sandal", description: "Sandal santai", price: 'Rp. 70.000' },
+  { id: 1, name: "Sepatu", description: "sepatu kodok", price: 'Rp. 100.000', image: 'https://filedn.com/lmwhxh5a0dX5XBLIJgYg8Jp/learn-ecommerce-react/joseph-barrientos-4qSb_FWhHKs-unsplash.jpg' },
+  { id: 1, name: "Macbook", description: "Apple Macbook Pro", price: 'Rp. 15.000.000', image: 'https://filedn.com/lmwhxh5a0dX5XBLIJgYg8Jp/learn-ecommerce-react/kari-shea-1SAnrIxw5OY-unsplash.jpg' },
+  { id: 1, name: "Tas", description: "Tas keren", price: 'Rp. 70.000', image: 'https://filedn.com/lmwhxh5a0dX5XBLIJgYg8Jp/learn-ecommerce-react/brando-makes-branding-smTDI-z1rlY-unsplash.jpg' },
 ];
 
 const Products = () => {
